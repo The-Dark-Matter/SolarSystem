@@ -1,0 +1,167 @@
+body {
+  height: 100%;
+  width: 100%;
+  overflow: visible;
+  background: black;
+}
+
+.b {
+  height: 700px;
+  position: absolute;
+  left:800px;
+  top:50px;
+  width: 700px;
+  background-color: gray;
+  display: none;
+  border-radius: 10% 2% 10% 10%;
+}
+.p,
+.s {
+  position: absolute;
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50%;
+}
+.flecha {
+  position: absolute;
+  color: white;
+  font-size: 32px;
+  display: none;
+}
+#fi {
+  top: 350px;
+  left: 19px;
+}
+#fd {
+  top: 350px;
+  left: 756px;
+}
+.sol {
+  --size: 200px;
+  --top: 400px;
+  --left: 400px;
+  top: var(--top);
+  left: var(--left);
+  background-image: url(imgs/sun.gif);
+  background-size: cover;
+}
+.mercurio {
+  --size: 20px;
+  --top: 200px;
+  --left: 200px;
+  top: var(--top);
+  left: var(--left);
+  background-image: url(imgs/mercury.gif);
+  background-size: cover;
+}
+.venus {
+  --size: 40px;
+  --top: 100px;
+  --left: 100px;
+  top: var(--top);
+  left: var(--left);
+  background-image: url(imgs/venus.gif);
+  background-size: cover;
+  top: 100px;
+}
+.tierra {
+  --size: 70px;
+  --top: 400px;
+  --left: 500px;
+  top: var(--top);
+  left: var(--left);
+  background-image: url(imgs/earth.gif);
+  background-size: cover;
+}
+.marte {
+  --size: 60px;
+  --top: 200px;
+  --left: 500px;
+  top: var(--top);
+  left: var(--left);
+  background-image: url(imgs/mars.gif);
+  background-size: cover;
+}
+.jupiter {
+  --size: 100px;
+  --top: 700px;
+  --left: 700px;
+  top: var(--top);
+  left: var(--left);
+  background-image: url(imgs/jupiter.gif);
+  background-size: cover;
+}
+.saturno {
+  --size: 70px;
+  --top: 500px;
+  --left: 900px;
+  top: var(--top);
+  left: var(--left);
+  background-image: url(imgs/saturn.gif);
+  background-size: cover;
+}
+.urano {
+  --size: 60px;
+  --top: 100px;
+  --left: 400px;
+  top: var(--top);
+  left: var(--left);
+  background-image: url(imgs/uranus.gif);
+  background-size: cover;
+}
+.neptuno {
+  --size: 40px;
+  --top: 600px;
+  --left: 100px;
+  top: var(--top);
+  left: var(--left);
+  background-image: url(imgs/neptune.gif);
+  background-size: cover;
+}
+.left {
+  float: none;
+}
+.right {
+  float: right;
+}
+agrandar {
+  height: 700px;
+  width: 700px;
+  top: 50px;
+  left: 50px;
+  "pointer-events": none;
+}
+#cerrar {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  background-image: url("xbutton.png");
+  border-radius: 0%;
+  top: 55px;
+  left: 1475px;
+  background-size: cover;
+  vertical-align: center;
+  display: none;
+  -webkit-user-select: none;
+
+}
+#Sol {
+  margin: 0 0 0 0;
+  position: absolute;
+  height: 420px;
+  width:650px;
+  color: white;
+  top:75px;
+  left:825px;
+  display: none;
+}
+#Mercurio {
+  margin: 0 0 0 0;
+  position: absolute;
+  height: 420px;
+  width:650px;
+  color: white;
+  top:75px;
+  left:825px;
+  display: none;
+}
