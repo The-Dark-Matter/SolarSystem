@@ -1,0 +1,6 @@
+#ss {
+    display: block;
+}
+#ss:target {
+    display: none;
+}
